@@ -64,3 +64,53 @@ flowchart TD
     C --> E[Prediction result]
 ```
 
+## Modelos de ML
+
+### Modelos supervisados
+
+- Se le enseña al modelo a través de datos etiquetados o con ejemplos.
+
+### Modelos no supervisados
+
+- Le enseñamos con datos no etiquetados.
+- Nos ayuda a encontrar patrones sin saber si algo está bien o no.
+
+### Modelos de refuerzo
+
+- El humano le da feedback al modelo.
+
+## 
+
+### Regresión lineal
+
+- Se intenta trazar una linea que itnenta ajustar la relacion de los datos etiquetados.
+
+### Regresión logística
+
+- Se intetan realizar una predicción, probabilidad.
+
+### Árbol de decisión
+
+- Se intenta imitar las deciciones que va tomando un ser humano.
+
+### Random forest
+
+- Combina muchos arboles de decisión. Tiene mucha más precisión.
+
+### Maquinas de soporte vectorial
+
+- 
+
+### Redes neuronales
+
+- Entenderemos patrones no lineales.
+
+## Conceptos
+
+| Título | Concepto |
+|---------------|-----------|
+| **Clustering** | Agrupamiento de datos no etiquetados |
+| **K-Means** | Divide los datos en k grupos minimizando la distancia dentro de cada grupo |
+| **DBSCAN** | Detecta conjuntos según proximidad en el espacio |
+| **Clustering Jerárquico** | Organiza los datos en una estructura de arbol llamada dendrograma formando categorias más amplias |
+| **Reducción de dimencionalidad / PCA** | Si tenemos muchas variables, crea nuevas variables y captura la mayor parte de la variación de los datos |
